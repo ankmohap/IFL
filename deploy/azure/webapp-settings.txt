@@ -1,0 +1,3 @@
+WEBSITES_PORT=4000
+PORT=4000
+DB_PATH=/home/site/data/ifl.sqlite3

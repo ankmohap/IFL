@@ -1,0 +1,14 @@
+{
+  "name": "ifl-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "python3 server/app.py",
+    "build": "npm --workspace client run build",
+    "start": "python3 server/app.py"
+  }
+}
